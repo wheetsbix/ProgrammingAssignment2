@@ -1,7 +1,6 @@
 ## The following functions will create a special "matrix" object that can cache its inverse, followed by 
 ## a function  that computes the inverse of the special "matrix" retured by the original function
 
-
 ## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
